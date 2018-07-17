@@ -3,18 +3,44 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2167F96E20FC65F5000572A7 /* const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2167F96D20FC65F5000572A7 /* const.swift */; };
+		2167F99D20FDD7CC000572A7 /* YZPageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2167F99C20FDD7CC000572A7 /* YZPageTitleView.swift */; };
+		2167F99F20FDEBF3000572A7 /* YZPageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2167F99E20FDEBF3000572A7 /* YZPageContentView.swift */; };
+		2167F9CE20FE226E000572A7 /* NetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2167F9CD20FE226E000572A7 /* NetWorkManager.swift */; };
+		2167F9D020FE228D000572A7 /* NetWorkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2167F9CF20FE228D000572A7 /* NetWorkTool.swift */; };
+		2167F9D220FE22C6000572A7 /* YHNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2167F9D120FE22C6000572A7 /* YHNetwork.swift */; };
+		216F64D520F8B2BD004AD61A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216F64D420F8B2BD004AD61A /* HomeViewController.swift */; };
+		216F64D920F8B3B7004AD61A /* RedpackageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216F64D820F8B3B7004AD61A /* RedpackageViewController.swift */; };
+		216F64DB20F8B3EA004AD61A /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216F64DA20F8B3EA004AD61A /* VideoViewController.swift */; };
+		216F64E020F8B676004AD61A /* HomeNaviView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 216F64DF20F8B676004AD61A /* HomeNaviView.xib */; };
+		216F64E220F8B68C004AD61A /* HomeNaviView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216F64E120F8B68C004AD61A /* HomeNaviView.swift */; };
+		216F64E420F8BCBE004AD61A /* UIKit+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216F64E320F8BCBE004AD61A /* UIKit+Extention.swift */; };
 		21ACCC1120F84EA90030C447 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ACCC1020F84EA90030C447 /* AppDelegate.swift */; };
 		21ACCC1320F84EA90030C447 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ACCC1220F84EA90030C447 /* ViewController.swift */; };
 		21ACCC1620F84EA90030C447 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21ACCC1420F84EA90030C447 /* Main.storyboard */; };
 		21ACCC1820F84EAA0030C447 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21ACCC1720F84EAA0030C447 /* Assets.xcassets */; };
 		21ACCC1B20F84EAA0030C447 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21ACCC1920F84EAA0030C447 /* LaunchScreen.storyboard */; };
+		21ACCC2D20F84FE80030C447 /* TabarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ACCC2C20F84FE80030C447 /* TabarViewController.swift */; };
+		AFE9039FFF017A07C759D0F1 /* Pods_YZNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4D52F4A9D0A1E39D0D589C /* Pods_YZNews.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2167F96D20FC65F5000572A7 /* const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = const.swift; sourceTree = "<group>"; };
+		2167F99C20FDD7CC000572A7 /* YZPageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZPageTitleView.swift; sourceTree = "<group>"; };
+		2167F99E20FDEBF3000572A7 /* YZPageContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZPageContentView.swift; sourceTree = "<group>"; };
+		2167F9CD20FE226E000572A7 /* NetWorkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkManager.swift; sourceTree = "<group>"; };
+		2167F9CF20FE228D000572A7 /* NetWorkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkTool.swift; sourceTree = "<group>"; };
+		2167F9D120FE22C6000572A7 /* YHNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YHNetwork.swift; sourceTree = "<group>"; };
+		216F64D420F8B2BD004AD61A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		216F64D820F8B3B7004AD61A /* RedpackageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedpackageViewController.swift; sourceTree = "<group>"; };
+		216F64DA20F8B3EA004AD61A /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		216F64DF20F8B676004AD61A /* HomeNaviView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeNaviView.xib; sourceTree = "<group>"; };
+		216F64E120F8B68C004AD61A /* HomeNaviView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNaviView.swift; sourceTree = "<group>"; };
+		216F64E320F8BCBE004AD61A /* UIKit+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIKit+Extention.swift"; sourceTree = "<group>"; };
 		21ACCC0D20F84EA90030C447 /* YZNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21ACCC1020F84EA90030C447 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21ACCC1220F84EA90030C447 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +48,10 @@
 		21ACCC1720F84EAA0030C447 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21ACCC1A20F84EAA0030C447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21ACCC1C20F84EAA0030C447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21ACCC2C20F84FE80030C447 /* TabarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabarViewController.swift; sourceTree = "<group>"; };
+		30B96A989E18DFDC9B704220 /* Pods-YZNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YZNews/Pods-YZNews.debug.xcconfig"; sourceTree = "<group>"; };
+		CC4D52F4A9D0A1E39D0D589C /* Pods_YZNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YZNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74EC73CF2DE2A4C4E2EECA7 /* Pods-YZNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-YZNews/Pods-YZNews.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +59,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFE9039FFF017A07C759D0F1 /* Pods_YZNews.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		216F64DC20F8B63B004AD61A /* view */ = {
+			isa = PBXGroup;
+			children = (
+				216F64DF20F8B676004AD61A /* HomeNaviView.xib */,
+				216F64E120F8B68C004AD61A /* HomeNaviView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		21ACCC0420F84EA90030C447 = {
 			isa = PBXGroup;
 			children = (
 				21ACCC0F20F84EA90030C447 /* YZNews */,
 				21ACCC0E20F84EA90030C447 /* Products */,
+				40F0BD9612D3A5D304C098D7 /* Pods */,
+				CA0883E83437B363245214D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,6 +126,7 @@
 		21ACCC2320F84F4A0030C447 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				216F64E320F8BCBE004AD61A /* UIKit+Extention.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -91,6 +134,8 @@
 		21ACCC2420F84F4A0030C447 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				216F64DC20F8B63B004AD61A /* view */,
+				216F64D420F8B2BD004AD61A /* HomeViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -98,6 +143,7 @@
 		21ACCC2520F84F4B0030C447 /* Const */ = {
 			isa = PBXGroup;
 			children = (
+				2167F96D20FC65F5000572A7 /* const.swift */,
 			);
 			path = Const;
 			sourceTree = "<group>";
@@ -112,6 +158,7 @@
 		21ACCC2720F84F4B0030C447 /* Redpackage */ = {
 			isa = PBXGroup;
 			children = (
+				216F64D820F8B3B7004AD61A /* RedpackageViewController.swift */,
 			);
 			path = Redpackage;
 			sourceTree = "<group>";
@@ -119,6 +166,7 @@
 		21ACCC2820F84F4B0030C447 /* Video */ = {
 			isa = PBXGroup;
 			children = (
+				216F64DA20F8B3EA004AD61A /* VideoViewController.swift */,
 			);
 			path = Video;
 			sourceTree = "<group>";
@@ -126,6 +174,9 @@
 		21ACCC2920F84F4C0030C447 /* NetWork */ = {
 			isa = PBXGroup;
 			children = (
+				2167F9CD20FE226E000572A7 /* NetWorkManager.swift */,
+				2167F9CF20FE228D000572A7 /* NetWorkTool.swift */,
+				2167F9D120FE22C6000572A7 /* YHNetwork.swift */,
 			);
 			path = NetWork;
 			sourceTree = "<group>";
@@ -133,6 +184,7 @@
 		21ACCC2A20F84F4C0030C447 /* Tabar */ = {
 			isa = PBXGroup;
 			children = (
+				21ACCC2C20F84FE80030C447 /* TabarViewController.swift */,
 			);
 			path = Tabar;
 			sourceTree = "<group>";
@@ -140,8 +192,27 @@
 		21ACCC2B20F84F4C0030C447 /* CustomControl */ = {
 			isa = PBXGroup;
 			children = (
+				2167F99C20FDD7CC000572A7 /* YZPageTitleView.swift */,
+				2167F99E20FDEBF3000572A7 /* YZPageContentView.swift */,
 			);
 			path = CustomControl;
+			sourceTree = "<group>";
+		};
+		40F0BD9612D3A5D304C098D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30B96A989E18DFDC9B704220 /* Pods-YZNews.debug.xcconfig */,
+				E74EC73CF2DE2A4C4E2EECA7 /* Pods-YZNews.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA0883E83437B363245214D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC4D52F4A9D0A1E39D0D589C /* Pods_YZNews.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21ACCC1F20F84EAA0030C447 /* Build configuration list for PBXNativeTarget "YZNews" */;
 			buildPhases = (
+				4B32BFA75240FAD9C4806BF1 /* [CP] Check Pods Manifest.lock */,
 				21ACCC0920F84EA90030C447 /* Sources */,
 				21ACCC0A20F84EA90030C447 /* Frameworks */,
 				21ACCC0B20F84EA90030C447 /* Resources */,
+				ECAD453B31DFDE32916839A3 /* [CP] Embed Pods Frameworks */,
+				DA2BD060EC92F0728641E3B1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,11 +250,12 @@
 				TargetAttributes = {
 					21ACCC0C20F84EA90030C447 = {
 						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = 21ACCC0820F84EA90030C447 /* Build configuration list for PBXProject "YZNews" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -205,10 +280,71 @@
 				21ACCC1B20F84EAA0030C447 /* LaunchScreen.storyboard in Resources */,
 				21ACCC1820F84EAA0030C447 /* Assets.xcassets in Resources */,
 				21ACCC1620F84EA90030C447 /* Main.storyboard in Resources */,
+				216F64E020F8B676004AD61A /* HomeNaviView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B32BFA75240FAD9C4806BF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YZNews-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA2BD060EC92F0728641E3B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YZNews/Pods-YZNews-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECAD453B31DFDE32916839A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YZNews/Pods-YZNews-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YZNews/Pods-YZNews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		21ACCC0920F84EA90030C447 /* Sources */ = {
@@ -216,7 +352,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				21ACCC1320F84EA90030C447 /* ViewController.swift in Sources */,
+				216F64D920F8B3B7004AD61A /* RedpackageViewController.swift in Sources */,
+				216F64DB20F8B3EA004AD61A /* VideoViewController.swift in Sources */,
+				2167F99D20FDD7CC000572A7 /* YZPageTitleView.swift in Sources */,
+				21ACCC2D20F84FE80030C447 /* TabarViewController.swift in Sources */,
+				2167F9D220FE22C6000572A7 /* YHNetwork.swift in Sources */,
+				216F64E220F8B68C004AD61A /* HomeNaviView.swift in Sources */,
 				21ACCC1120F84EA90030C447 /* AppDelegate.swift in Sources */,
+				2167F9D020FE228D000572A7 /* NetWorkTool.swift in Sources */,
+				2167F99F20FDEBF3000572A7 /* YZPageContentView.swift in Sources */,
+				2167F9CE20FE226E000572A7 /* NetWorkManager.swift in Sources */,
+				2167F96E20FC65F5000572A7 /* const.swift in Sources */,
+				216F64D520F8B2BD004AD61A /* HomeViewController.swift in Sources */,
+				216F64E420F8BCBE004AD61A /* UIKit+Extention.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,22 +498,19 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		21ACCC2020F84EAA0030C447 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30B96A989E18DFDC9B704220 /* Pods-YZNews.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = YZNews/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yongzhenyin.YZNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -375,14 +520,12 @@
 		};
 		21ACCC2120F84EAA0030C447 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E74EC73CF2DE2A4C4E2EECA7 /* Pods-YZNews.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = YZNews/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yongzhenyin.YZNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

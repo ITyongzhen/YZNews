@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="fnb-oh-7zm" customClass="HomeNaviView" customModule="YZNews" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="586" height="130"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yYB-Ic-1it">
+                    <rect key="frame" x="10" y="46" width="38" height="38"/>
+                    <state key="normal" image="home_no_login_head"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="axE-HP-BBM">
+                    <rect key="frame" x="538" y="46" width="38" height="38"/>
+                    <state key="normal" image="home_camera"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ej-wO-ucy">
+                    <rect key="frame" x="63" y="46" width="46" height="38"/>
+                    <state key="normal" title="Button"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.62860905215197849" blue="0.27192828580142647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="yYB-Ic-1it" firstAttribute="leading" secondItem="VHg-Fw-5ii" secondAttribute="leading" constant="10" id="0iv-Fj-PHG"/>
+                <constraint firstItem="8ej-wO-ucy" firstAttribute="leading" secondItem="yYB-Ic-1it" secondAttribute="trailing" constant="15" id="39s-kw-FaD"/>
+                <constraint firstItem="8ej-wO-ucy" firstAttribute="height" secondItem="yYB-Ic-1it" secondAttribute="height" id="Ftf-is-26F"/>
+                <constraint firstItem="8ej-wO-ucy" firstAttribute="centerY" secondItem="yYB-Ic-1it" secondAttribute="centerY" id="K05-7O-N03"/>
+                <constraint firstItem="axE-HP-BBM" firstAttribute="top" secondItem="yYB-Ic-1it" secondAttribute="top" id="WNr-Kk-kJg"/>
+                <constraint firstItem="VHg-Fw-5ii" firstAttribute="trailing" secondItem="axE-HP-BBM" secondAttribute="trailing" constant="10" id="aPl-s9-WL8"/>
+                <constraint firstItem="axE-HP-BBM" firstAttribute="leading" secondItem="8ej-wO-ucy" secondAttribute="trailing" constant="429" id="dGb-u4-jbQ"/>
+                <constraint firstItem="axE-HP-BBM" firstAttribute="width" secondItem="yYB-Ic-1it" secondAttribute="width" id="mQb-95-xF5"/>
+                <constraint firstItem="axE-HP-BBM" firstAttribute="bottom" secondItem="yYB-Ic-1it" secondAttribute="bottom" id="p6f-Ja-4Sr"/>
+                <constraint firstItem="yYB-Ic-1it" firstAttribute="centerY" secondItem="fnb-oh-7zm" secondAttribute="centerY" id="vtf-N2-M8h"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="VHg-Fw-5ii"/>
+            <point key="canvasLocation" x="14" y="-268"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="home_camera" width="38" height="38"/>
+        <image name="home_no_login_head" width="38" height="38"/>
+    </resources>
+</document>
