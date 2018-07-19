@@ -40,9 +40,11 @@ class HomeViewController: UIViewController, YZPageTitleViewDelegate, PageContent
             
             self.view.addSubview(self.pageTitleView!)
             
+            for _ in arr{
+                self.addChildViewController(HotPageViewController())
+            }
             
-            
-            self.pageContentView = YZPageContentView(frame: CGRect(x: 0, y: 40, width: kScreenWidth, height: kScreenHeight - 40), childViewControllers: [])
+            self.pageContentView = YZPageContentView(frame: CGRect(x: 0, y: 40, width: kScreenWidth, height: kScreenHeight - 40), childViewControllers: self.childViewControllers)
             self.pageContentView?.delegate = self
             
             self.view.addSubview(self.pageContentView!)
@@ -71,7 +73,7 @@ extension HomeViewController{
     
     
     func YZPageTitleViewDidSelected(atIndex index: Int) {
-        pageTitleView?.setSelect(index: index)
+        pageContentView?.setIndex(index: index)
     }
     
     func pageContentViewDidEndScroll(index: Int) {

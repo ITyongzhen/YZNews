@@ -13,16 +13,20 @@ import UIKit
 class HotPageViewController: UIViewController, UITableViewDelegate, UITableViewDataSource{
     var tableView: UITableView!
     
-    var dataSourse: [NewsModel]?
+    var dataSourse: [NewsModel] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         layoutUI()
-        
+        NetWorkTool.loadApiNewsFeeds { (datas: [NewsModel]) in
+            self.dataSourse = datas
+            self.tableView.reloadData()
+            
+        }
     }
     
-    
+   
     
     
     func layoutUI() {
@@ -40,12 +44,12 @@ class HotPageViewController: UIViewController, UITableViewDelegate, UITableViewD
 
 extension HotPageViewController{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return (dataSourse?.count)!
+        return dataSourse.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: NewsTableViewCell = tableView.dequeueReusableCell(withIdentifier: "NewsTableViewCell", for: indexPath) as! NewsTableViewCell
-        cell.title.text = dataSourse?[indexPath.row].abstract
+        cell.title.text = dataSourse[indexPath.row].abstract
         return cell
         
     }

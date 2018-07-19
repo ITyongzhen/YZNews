@@ -21,7 +21,7 @@ class NewsTableViewCell: UITableViewCell {
     }
     
     func setupUI() {
-        title = UILabel(frame: self.bounds)
+        title = UILabel(frame: CGRect(x: 10, y: 10, width: self.bounds.size.width, height: self.bounds.size.height))
         title.font = UIFont.systemFont(ofSize: 12)
         title.textColor = UIColor.blue
         title.textAlignment = NSTextAlignment.left

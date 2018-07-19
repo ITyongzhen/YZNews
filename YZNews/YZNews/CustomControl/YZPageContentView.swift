@@ -34,9 +34,10 @@ class YZPageContentView: UIView, UICollectionViewDelegate, UICollectionViewDataS
         collectionView = UICollectionView(frame: self.bounds, collectionViewLayout: layout)
         
         collectionView.delegate = self
-        
+        collectionView.dataSource = self
         collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "PageContentVC")
-        
+        collectionView.isPagingEnabled = true
+        addSubview(collectionView)
         
         
     }
