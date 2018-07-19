@@ -13,6 +13,9 @@
 		2167F9CE20FE226E000572A7 /* NetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2167F9CD20FE226E000572A7 /* NetWorkManager.swift */; };
 		2167F9D020FE228D000572A7 /* NetWorkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2167F9CF20FE228D000572A7 /* NetWorkTool.swift */; };
 		2167F9D220FE22C6000572A7 /* YHNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2167F9D120FE22C6000572A7 /* YHNetwork.swift */; };
+		2167F9D420FED469000572A7 /* models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2167F9D320FED469000572A7 /* models.swift */; };
+		2167F9E520FEE64C000572A7 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2167F9E420FEE64C000572A7 /* NewsTableViewCell.swift */; };
+		2167F9E720FEEB40000572A7 /* HotPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2167F9E620FEEB40000572A7 /* HotPageViewController.swift */; };
 		216F64D520F8B2BD004AD61A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216F64D420F8B2BD004AD61A /* HomeViewController.swift */; };
 		216F64D920F8B3B7004AD61A /* RedpackageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216F64D820F8B3B7004AD61A /* RedpackageViewController.swift */; };
 		216F64DB20F8B3EA004AD61A /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216F64DA20F8B3EA004AD61A /* VideoViewController.swift */; };
@@ -35,6 +38,9 @@
 		2167F9CD20FE226E000572A7 /* NetWorkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkManager.swift; sourceTree = "<group>"; };
 		2167F9CF20FE228D000572A7 /* NetWorkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkTool.swift; sourceTree = "<group>"; };
 		2167F9D120FE22C6000572A7 /* YHNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YHNetwork.swift; sourceTree = "<group>"; };
+		2167F9D320FED469000572A7 /* models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = models.swift; sourceTree = "<group>"; };
+		2167F9E420FEE64C000572A7 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		2167F9E620FEEB40000572A7 /* HotPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotPageViewController.swift; sourceTree = "<group>"; };
 		216F64D420F8B2BD004AD61A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		216F64D820F8B3B7004AD61A /* RedpackageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedpackageViewController.swift; sourceTree = "<group>"; };
 		216F64DA20F8B3EA004AD61A /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +77,7 @@
 			children = (
 				216F64DF20F8B676004AD61A /* HomeNaviView.xib */,
 				216F64E120F8B68C004AD61A /* HomeNaviView.swift */,
+				2167F9E420FEE64C000572A7 /* NewsTableViewCell.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -119,6 +126,7 @@
 		21ACCC2220F84F4A0030C447 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2167F9D320FED469000572A7 /* models.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -136,6 +144,7 @@
 			children = (
 				216F64DC20F8B63B004AD61A /* view */,
 				216F64D420F8B2BD004AD61A /* HomeViewController.swift */,
+				2167F9E620FEEB40000572A7 /* HotPageViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -353,7 +362,9 @@
 			files = (
 				21ACCC1320F84EA90030C447 /* ViewController.swift in Sources */,
 				216F64D920F8B3B7004AD61A /* RedpackageViewController.swift in Sources */,
+				2167F9E520FEE64C000572A7 /* NewsTableViewCell.swift in Sources */,
 				216F64DB20F8B3EA004AD61A /* VideoViewController.swift in Sources */,
+				2167F9E720FEEB40000572A7 /* HotPageViewController.swift in Sources */,
 				2167F99D20FDD7CC000572A7 /* YZPageTitleView.swift in Sources */,
 				21ACCC2D20F84FE80030C447 /* TabarViewController.swift in Sources */,
 				2167F9D220FE22C6000572A7 /* YHNetwork.swift in Sources */,
@@ -361,6 +372,7 @@
 				21ACCC1120F84EA90030C447 /* AppDelegate.swift in Sources */,
 				2167F9D020FE228D000572A7 /* NetWorkTool.swift in Sources */,
 				2167F99F20FDEBF3000572A7 /* YZPageContentView.swift in Sources */,
+				2167F9D420FED469000572A7 /* models.swift in Sources */,
 				2167F9CE20FE226E000572A7 /* NetWorkManager.swift in Sources */,
 				2167F96E20FC65F5000572A7 /* const.swift in Sources */,
 				216F64D520F8B2BD004AD61A /* HomeViewController.swift in Sources */,

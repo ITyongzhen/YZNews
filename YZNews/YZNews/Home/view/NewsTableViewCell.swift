@@ -6,4 +6,31 @@
 //  Copyright © 2018年 yongzhen. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class NewsTableViewCell: UITableViewCell {
+    var title: UILabel!
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+    }
+    
+    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+        super.init(style: style, reuseIdentifier: reuseIdentifier)
+        setupUI()
+    }
+    
+    func setupUI() {
+        title = UILabel(frame: self.bounds)
+        title.font = UIFont.systemFont(ofSize: 12)
+        title.textColor = UIColor.blue
+        title.textAlignment = NSTextAlignment.left
+        self.addSubview(title)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    
+}

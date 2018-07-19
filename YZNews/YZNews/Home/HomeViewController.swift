@@ -23,22 +23,34 @@ class HomeViewController: UIViewController, YZPageTitleViewDelegate, PageContent
     override func viewDidLoad() {
         super.viewDidLoad()
         layoutNavigationBar()
-        self.navigationController!.navigationBar.isTranslucent = false
-
-        view.backgroundColor = UIColor.white
-        self.pageTitleView = YZPageTitleView(frame: CGRect(x: 0, y: 0, width: kScreenWidth, height: 40), titleNames: ["aa","bb","cc"])
-        self.pageTitleView?.layer.borderWidth = 2
-        self.pageTitleView?.layer.borderColor = UIColor.yellow.cgColor
-        self.pageTitleView?.delegate = self
         
-        self.view.addSubview(self.pageTitleView!)
+        NetWorkTool.loadHomeNewTitleData { (arr: [HomeTitleModel]) in
+            print(arr)
+            let titles: [String] = arr.compactMap({ (model) -> String? in
+                model.name
+                
+            })
+            self.navigationController!.navigationBar.isTranslucent = false
+            
+            self.view.backgroundColor = UIColor.white
+            self.pageTitleView = YZPageTitleView(frame: CGRect(x: 0, y: 0, width: kScreenWidth, height: 40), titleNames: titles)
+            self.pageTitleView?.layer.borderWidth = 2
+            self.pageTitleView?.layer.borderColor = UIColor.yellow.cgColor
+            self.pageTitleView?.delegate = self
+            
+            self.view.addSubview(self.pageTitleView!)
+            
+            
+            
+            self.pageContentView = YZPageContentView(frame: CGRect(x: 0, y: 40, width: kScreenWidth, height: kScreenHeight - 40), childViewControllers: [])
+            self.pageContentView?.delegate = self
+            
+            self.view.addSubview(self.pageContentView!)
+            
+        }
         
         
-        
-        self.pageContentView = YZPageContentView(frame: CGRect(x: 0, y: 40, width: kScreenWidth, height: kScreenHeight - 40), childViewControllers: [])
-        self.pageContentView?.delegate = self
-        
-        self.view.addSubview(self.pageContentView!)
+   
         
         
         
