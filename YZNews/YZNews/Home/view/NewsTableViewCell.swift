@@ -24,6 +24,7 @@ class NewsTableViewCell: UITableViewCell {
         title = UILabel(frame: CGRect(x: 10, y: 10, width: self.bounds.size.width, height: self.bounds.size.height))
         title.font = UIFont.systemFont(ofSize: 12)
         title.textColor = UIColor.blue
+        title.numberOfLines = 0
         title.textAlignment = NSTextAlignment.left
         self.addSubview(title)
     }
