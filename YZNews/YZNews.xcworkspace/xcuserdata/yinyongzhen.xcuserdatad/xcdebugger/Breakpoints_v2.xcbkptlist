@@ -10,12 +10,107 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "YZNews/Home/HomeViewController.swift"
-            timestampString = "553662302.797459"
+            timestampString = "553674034.674407"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
             landmarkName = "pageContentViewDidEndScroll(index:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YZNews/Model/models.swift"
+            timestampString = "553674034.674479"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "VideoModel"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YZNews.VideoModel.read_count.getter : Swift.Optional&lt;Swift.Int&gt;"
+                  moduleName = "YZNews"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yinyongzhen/Documents/RL/fun/swift%20%E9%A1%B9%E7%9B%AE/YZNews/YZNews/YZNews/Model/models.swift"
+                  timestampString = "553829755.955734"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YZNews.VideoModel.read_count.setter : Swift.Optional&lt;Swift.Int&gt;"
+                  moduleName = "YZNews"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yinyongzhen/Documents/RL/fun/swift%20%E9%A1%B9%E7%9B%AE/YZNews/YZNews/YZNews/Model/models.swift"
+                  timestampString = "553829755.958632"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YZNews.VideoModel.init() -&gt; YZNews.VideoModel"
+                  moduleName = "YZNews"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yinyongzhen/Documents/RL/fun/swift%20%E9%A1%B9%E7%9B%AE/YZNews/YZNews/YZNews/Model/models.swift"
+                  timestampString = "553829755.961673"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "51">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YZNews/Video/VideoViewController.swift"
+            timestampString = "553829755.75905"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YZNews/Video/view/VideoTableViewCell.swift"
+            timestampString = "553829891.148508"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "setSelected(_:animated:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

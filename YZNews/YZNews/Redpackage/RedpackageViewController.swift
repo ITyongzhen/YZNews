@@ -13,6 +13,6 @@ class RedpackageViewController: UIViewController {
         super.viewDidLoad()
         
         view.backgroundColor = UIColor.orange
-        
+        self.title = "抢红包啦"
     }
 }

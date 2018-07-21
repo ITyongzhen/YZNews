@@ -50,14 +50,7 @@ class HomeViewController: UIViewController, YZPageTitleViewDelegate, PageContent
             self.view.addSubview(self.pageContentView!)
             
         }
-        
-        
-   
-        
-        
-        
-        
-        
+
         
     }
 }

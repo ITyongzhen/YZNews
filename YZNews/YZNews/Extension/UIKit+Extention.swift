@@ -23,7 +23,24 @@ extension NibLoadable{
     }
     
 }
-
+protocol ReusableView: class {}
+extension ReusableView {
+    static var reuseIdentifier: String {
+        return String(describing: self)
+    }
+}
+extension UIImageView {
+    func setImage(url: String, placeHolderImage: UIImage) {
+        self.image = placeHolderImage
+        DispatchQueue.global().async {
+            let data = try! Data(contentsOf: URL(string: url)!)
+            let img = UIImage(data: data)
+            DispatchQueue.main.async {
+                self.image = img
+            }
+        }
+    }
+}
 
 
 
