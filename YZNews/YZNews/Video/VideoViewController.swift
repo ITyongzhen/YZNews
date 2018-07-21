@@ -13,6 +13,8 @@ class VideoViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     var myTableView: UITableView!
     var myDataSourse: [VideoModel] = []
+    lazy var playerView = YHVideoPlayer.loadViewFromNib()
+    var currentCell: VideoTableViewCell?
     
 
     
@@ -59,6 +61,18 @@ extension VideoViewController{
         cell.avatarImg.setImage(url: model.avatar_url, placeHolderImage: UIImage(named: "timg")!)
         
         return cell
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let cell  = tableView.cellForRow(at: indexPath)
+        guard cell?.subviews.contains(playerView) == false else {
+            return
+        }
+        currentCell = (cell as! VideoTableViewCell)
+        cell?.addSubview(playerView)
+        playerView.playVideo(urlString: "https://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4")
+        
+        
+        
     }
     
 }

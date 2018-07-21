@@ -30,6 +30,8 @@
 		21ACCC2D20F84FE80030C447 /* TabarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ACCC2C20F84FE80030C447 /* TabarViewController.swift */; };
 		21C3E6F521003A41003E2844 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C3E6F321003A41003E2844 /* VideoTableViewCell.swift */; };
 		21C3E6F621003A41003E2844 /* VideoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21C3E6F421003A41003E2844 /* VideoTableViewCell.xib */; };
+		21EC892E2102D2000082BC50 /* YHVideoPlayer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21EC892C2102D1FF0082BC50 /* YHVideoPlayer.xib */; };
+		21EC892F2102D2000082BC50 /* YHVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EC892D2102D2000082BC50 /* YHVideoPlayer.swift */; };
 		AFE9039FFF017A07C759D0F1 /* Pods_YZNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4D52F4A9D0A1E39D0D589C /* Pods_YZNews.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +61,8 @@
 		21ACCC2C20F84FE80030C447 /* TabarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabarViewController.swift; sourceTree = "<group>"; };
 		21C3E6F321003A41003E2844 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
 		21C3E6F421003A41003E2844 /* VideoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoTableViewCell.xib; sourceTree = "<group>"; };
+		21EC892C2102D1FF0082BC50 /* YHVideoPlayer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YHVideoPlayer.xib; sourceTree = "<group>"; };
+		21EC892D2102D2000082BC50 /* YHVideoPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YHVideoPlayer.swift; sourceTree = "<group>"; };
 		30B96A989E18DFDC9B704220 /* Pods-YZNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YZNews/Pods-YZNews.debug.xcconfig"; sourceTree = "<group>"; };
 		CC4D52F4A9D0A1E39D0D589C /* Pods_YZNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YZNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E74EC73CF2DE2A4C4E2EECA7 /* Pods-YZNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-YZNews/Pods-YZNews.release.xcconfig"; sourceTree = "<group>"; };
@@ -206,6 +210,8 @@
 		21ACCC2B20F84F4C0030C447 /* CustomControl */ = {
 			isa = PBXGroup;
 			children = (
+				21EC892D2102D2000082BC50 /* YHVideoPlayer.swift */,
+				21EC892C2102D1FF0082BC50 /* YHVideoPlayer.xib */,
 				2167F99C20FDD7CC000572A7 /* YZPageTitleView.swift */,
 				2167F99E20FDEBF3000572A7 /* YZPageContentView.swift */,
 			);
@@ -303,6 +309,7 @@
 				21ACCC1B20F84EAA0030C447 /* LaunchScreen.storyboard in Resources */,
 				21ACCC1820F84EAA0030C447 /* Assets.xcassets in Resources */,
 				21ACCC1620F84EA90030C447 /* Main.storyboard in Resources */,
+				21EC892E2102D2000082BC50 /* YHVideoPlayer.xib in Resources */,
 				21C3E6F621003A41003E2844 /* VideoTableViewCell.xib in Resources */,
 				216F64E020F8B676004AD61A /* HomeNaviView.xib in Resources */,
 			);
@@ -381,6 +388,7 @@
 				216F64DB20F8B3EA004AD61A /* VideoViewController.swift in Sources */,
 				2167F9E720FEEB40000572A7 /* HotPageViewController.swift in Sources */,
 				2167F99D20FDD7CC000572A7 /* YZPageTitleView.swift in Sources */,
+				21EC892F2102D2000082BC50 /* YHVideoPlayer.swift in Sources */,
 				21ACCC2D20F84FE80030C447 /* TabarViewController.swift in Sources */,
 				2167F9D220FE22C6000572A7 /* YHNetwork.swift in Sources */,
 				216F64E220F8B68C004AD61A /* HomeNaviView.swift in Sources */,
