@@ -44,6 +44,7 @@ class HotPageViewController: UIViewController, UITableViewDelegate, UITableViewD
 
 extension HotPageViewController{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+     print("\(dataSourse.count) 条新闻")
         return dataSourse.count
     }
     

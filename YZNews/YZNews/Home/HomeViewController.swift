@@ -57,8 +57,8 @@ class HomeViewController: UIViewController, YZPageTitleViewDelegate, PageContent
 
 extension HomeViewController{
     private func layoutNavigationBar(){
-        view.backgroundColor = UIColor.yellow
-        navigationVBar.backgroundColor = UIColor.blue
+//        view.backgroundColor = UIColor.yellow
+        navigationVBar.backgroundColor = UIColor.white
         
         navigationItem.titleView = navigationVBar
         
